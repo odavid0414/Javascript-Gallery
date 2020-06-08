@@ -1,0 +1,82 @@
+.container-1200
+{
+	width: 100%;
+	min-width: 1200px;
+	padding-left: 55px;
+	padding-right: 55px;
+	margin: 0 auto;
+}
+
+.modal-body
+{
+	padding:0;
+}
+.modal-dialog
+{
+	max-width:750px;
+	margin: 11.75rem auto;
+}
+
+.img
+{
+	width:100%;
+	margin: 15px;
+	animation: mymove 2s;
+}
+
+.nextpage
+{
+    position: fixed;
+	left: 82%;
+    top: 30%;
+    z-index: 1;
+	opacity: 0.3;
+	width: 17%;
+	animation: mymove 2s;
+}
+.nextpage:hover, .mininextpage:hover, .prevpage:hover, .miniprevpage:hover
+{
+	opacity: 0.8;
+}
+.prevpage
+{
+    position: fixed;
+	left: -3%;
+    top: 30%;
+    z-index: 1;
+	opacity: 0.3;
+	width: 17%;
+	animation: mymove 2s;
+}
+.mininextpage
+{
+    position: absolute;
+	left: 82%;
+    top: 30%;
+    z-index: 1;
+	opacity: 0.3;
+	width: 23%;
+	animation: mymove 2s;
+}
+.miniprevpage
+{
+	position: absolute;
+	left: -3%;
+    top: 30%;
+    z-index: 1;
+	opacity: 0.3;
+	width: 23%;
+	animation: mymove 2s;
+}
+
+.oldalszam
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+}
+
+@keyframes mymove {
+  from {right:0;}
+  to {right: 100%;}
+}

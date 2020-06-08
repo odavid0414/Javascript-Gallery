@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/img.css">
+  <link rel="stylesheet" href="css/min.css">
+  <!--<link rel="stylesheet" href="css/mdb.css"> -->
+</head>
+<body>
+<div class="container-fluid">
+<select class="form-control-sm" id="LathatoKepek" onchange="OptionChange()">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+    <option value="50">50</option>
+  </select>
+	<div class="row">
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/1.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/2.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/3.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/4.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/5.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/6.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/7.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/8.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/9.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/10.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/11.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/12.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/13.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/14.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/15.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/16.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/17.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/18.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/19.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/20.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+		<div class="DIVimg col-xl-2 col-lg-3 col-md-4 col-sm-5 col-xs-6"><img src="kepek/20.jpg" class="img animated fadeIn slow hoverable" data-toggle="modal" data-target="#myModal" onclick="modal(this)"></div>
+	</div>
+</div>
+<a href="#"><img src="res/prev.png" class="prevpage" onclick="prev()"></a>
+<a href="#"><img src="res/next.png" class="nextpage" onclick="next()"></a>
+
+<div class="oldalszam"><span id="AktualisOldal"></span>/<span id="OsszesOldal"></span></div>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+	  <a href="#"><img src="res/prev.png" class="miniprevpage" onclick="miniprev()"></a>
+		<a href="#"><img src="res/next.png" class="mininextpage" onclick="mininext()"></a>
+        <div class="modal-body" id="modal-body">
+          <p></p>
+        </div>
+      </div>
+    </div>
+</div>
+  
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/img.js"></script>
